@@ -33,10 +33,7 @@ From figure, it can be seen that the accuracy of the model is increasing as the 
 
 The error matrix for the classification is given below in table 2. The classification that was applied to the ten test images from the dataset had nine such images correctly classified in terms of age and contrast used. One such image was wrongly classified in terms of contrast used.
 
-CONFUSION MATRIX
-	Classified True	Classified False
-True	6	1
-False	0	3
+![Confusion](https://user-images.githubusercontent.com/31190025/89528834-57f1ef80-d809-11ea-910b-486d5ba5190c.JPG)
 
 The receiver operating characteristics curve (ROC) was drawn for the following test images and the area under the ROC curve (AUC) value was derived from it. Along with the result, from the confusion matrix, truly positive rates and false positive rates were calculated and with that the specificity and sensitivity percentages were derived and their results are shown in the ipynb file. 
 
